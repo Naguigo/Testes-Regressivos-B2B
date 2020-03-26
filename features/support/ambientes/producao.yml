@@ -1,0 +1,12 @@
+url_padrao: 'https://www.snd.com.br'
+user: 'NATHAN.GOMES@SND.COM.BR'
+senha: '123456'
+produto1: 'G2260VWQ6'
+id1: 'div[data-productid="148829"]'
+produto2: 'E970SWNL'
+id2: 'div[data-productid="148879"]'
+minha conta: 'QA Automação'
+busca: 'https://www.snd.com.br/filterSearch?q=G2260VWQ6'
+cpf_boleto: '12.580.606/0001-22'
+nota_fiscal: '1309418'
+
