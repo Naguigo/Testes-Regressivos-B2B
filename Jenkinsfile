@@ -1,13 +1,14 @@
 pipeline{
     agent {
         docker{
-            image "ruby"
+            image "qaninja/rubywd"
         }
     }
     stages {
         stage("Build") {
             steps {
                 echo 'simulando um build'
+                sh 'rm -f Gemfile.lock'
                 sh 'bundle install'
             }
         }
