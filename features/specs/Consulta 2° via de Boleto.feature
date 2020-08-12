@@ -2,7 +2,7 @@
 
 #language:pt
 
-@boleto @regressao
+# @boleto @regressao
 Funcionalidade: Segunda via de Boleto
 
 Cenario: Solicitar 2° via de Boleto
