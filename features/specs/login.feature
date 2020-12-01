@@ -6,7 +6,7 @@ Funcionalidade: Login
 @logout  @12
 Cenário: Usuario autorizado
     Dado que eu acesse a pagina principal
-    Quando eu faço login com "nathan.gomes@snd.com.br" e "654321"
+    Quando eu faço login com "nathan.gomes@snd.com.br" e "123456"
     Então devo ser autenticado com Sucesso "Minha Conta"
 
 

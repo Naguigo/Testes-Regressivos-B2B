@@ -53,7 +53,7 @@ Capybara.configure do |config|
    config.app_host = CONFIG['url_padrao'] 
    CONFIG['user']
    CONFIG['senha']
-   config.app_host = 'http://qualidade.snd.com.br'
+   #config.app_host = 'http://qualidade.snd.com.br'
    config.default_max_wait_time = 20
    Capybara.page.driver.browser.manage.window.maximize
 end 

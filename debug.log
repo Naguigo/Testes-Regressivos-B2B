@@ -2,3 +2,4 @@
 [1226/105351.341:ERROR:exception_snapshot_win.cc(98)] thread ID 1656 not found in process
 [1226/112239.745:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
 [1226/112239.748:ERROR:exception_snapshot_win.cc(98)] thread ID 7780 not found in process
+[1015/115805.534:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
