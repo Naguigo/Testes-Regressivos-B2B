@@ -65,4 +65,11 @@ Quando eu finalizar a compra e inserir o CNPJ do cliente não cadastrado e cliqu
 Entao aparerá um formulario para cadastro do CNPJ do cliente digitado
 
 
+@SNDPAY
+@loginaddcarrinho @limpacarrinho
+Cenario: Validar saldo SND Pay
+Dado que eu tenha um novo cliente 
+Quando eu faturar no carrinho de compras para este CNPJ
+Entao nas opções de pagamento terá uma opção para verificar saldo SND Pay
+
 #Cenario: Validar a finalização de compra - Comercialização

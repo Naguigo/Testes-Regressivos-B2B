@@ -1,7 +1,7 @@
 Dado("que eu tenha me logado") do
   sleep 2
   if page.has_css?('label', :class => 'header-login-label', :visible => true)    
-    expect(page).to have_text CONFIG['minha conta']      
+    expect(page).to have_text 'Minha Conta'    
     expect(page).to have_xpath("//img[@src='/Themes/Pavilion/Content/images/seloabcomn.png']")
   elsif page.has_css?('label', :class => 'header-login-label', :visible => false)
     find('#header-links-opener').click

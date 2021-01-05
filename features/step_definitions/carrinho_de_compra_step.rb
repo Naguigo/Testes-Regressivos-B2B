@@ -263,3 +263,26 @@ Entao("aparerá um formulario para cadastro do CNPJ do cliente digitado") do
   expect(page).to have_content 'ENDEREÇO DE ENTREGA'
 end
 
+
+
+
+Dado("que eu tenha um novo cliente") do
+  expect(page).to have_content 'CARRINHO'
+  expect(page).to have_content CONFIG['produto1']
+  sleep 2
+
+ 
+
+end
+
+Quando("eu faturar no carrinho de compras para este CNPJ") do
+  find('#checkout').click
+  sleep 1
+  find('#cpfcnpj').set @cnpj                #('59.894.792/0001-38') #cnpj cadastrado para teste de automação (senha "111111")
+  click_button(id: 'buttonContinuarVendaComissionada')
+  sleep 3
+end
+
+Entao("nas opções de pagamento terá uma opção para verificar saldo SND Pay") do
+  pending # Write code here that turns the phrase above into concrete actions
+end

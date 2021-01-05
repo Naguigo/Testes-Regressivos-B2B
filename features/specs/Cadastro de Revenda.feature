@@ -3,7 +3,7 @@
 @regressao
 Funcionalidade: Cadastro de Revenda
 
-@revenda
+@revenda 
 Cenario: cadastrar Revenda comun
 
 Dado que acesse o formulário de cadastro no site.
