@@ -16,7 +16,7 @@ require 'pry'
 BROWSER = ENV['BROWSER']
 AMBIENTE = ENV['AMBIENTE']
 
-CONFIG = YAML.load_file(File.dirname(_FILE_) + "/ambientes/#{AMBIENTE}.yml")
+CONFIG = YAML.load_file(File.dirname(__FILE__) + "/ambientes/#{AMBIENTE}.yml")
 
 World(Capybara::DSL)
 World(Capybara::RSpecMatchers)
